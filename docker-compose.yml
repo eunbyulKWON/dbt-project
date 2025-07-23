@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    dbt:
+        build: .
+        container_name: dbt-core-prj
+        volumes:
+            - .:/usr/app
+            - ./.dbt:/root/.dbt
+            - ./gcp-key.json:/usr/app/gcp-key.json
+        stdin_open: true
+        tty: true
