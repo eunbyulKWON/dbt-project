@@ -1,0 +1,108 @@
+[0m07:06:07.680452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa0854a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9faf43a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9faf4370>]}
+
+
+============================== 07:06:07.687135 | 43b4c8c6-e4bb-41d3-8e8a-208e13ab7be6 ==============================
+[0m07:06:07.687135 [info ] [MainThread]: Running with dbt=1.10.4
+[0m07:06:07.688032 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt init my_dbt_project', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:06:07.708357 [info ] [MainThread]: A project called my_dbt_project already exists here.
+[0m07:06:07.710686 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.04012158, "process_in_blocks": "70384", "process_kernel_time": 0.517734, "process_mem_max_rss": "96348", "process_out_blocks": "1290", "process_user_time": 0.886122}
+[0m07:06:07.711150 [debug] [MainThread]: Command `dbt init` succeeded at 07:06:07.711068 after 0.04 seconds
+[0m07:06:07.714365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa0854a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9f8f5510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9f8f4670>]}
+[0m07:06:07.715022 [debug] [MainThread]: Flushing usage events
+[0m07:06:09.378001 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:07:14.870630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8f54c820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8e54e890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8e54d870>]}
+
+
+============================== 07:07:14.873023 | fdfd84a9-02e4-49dc-97f6-3bd8596cd238 ==============================
+[0m07:07:14.873023 [info ] [MainThread]: Running with dbt=1.10.4
+[0m07:07:14.873436 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init my_dbt_project', 'send_anonymous_usage_stats': 'True'}
+[0m07:07:14.877923 [info ] [MainThread]: A project called my_dbt_project already exists here.
+[0m07:07:14.878602 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.011234625, "process_in_blocks": "0", "process_kernel_time": 0.245632, "process_mem_max_rss": "92600", "process_out_blocks": "2", "process_user_time": 0.740925}
+[0m07:07:14.878855 [debug] [MainThread]: Command `dbt init` succeeded at 07:07:14.878809 after 0.01 seconds
+[0m07:07:14.879108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8f54c820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8e54e890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8e54f220>]}
+[0m07:07:14.879309 [debug] [MainThread]: Flushing usage events
+[0m07:07:15.931336 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:11:17.819289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6750850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb574e8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb574d8d0>]}
+
+
+============================== 07:11:17.822817 | 3d4aa7ed-440d-4f2b-93c4-f39aefa488c2 ==============================
+[0m07:11:17.822817 [info ] [MainThread]: Running with dbt=1.10.4
+[0m07:11:17.823264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init my_dbt_project', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m07:11:17.829309 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m07:11:17.848130 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:11:17.849365 [info ] [MainThread]: Setting up your profile.
+[0m07:11:17.851249 [error] [MainThread]: Encountered an error:
+while scanning for the next token
+found character '\t' that cannot start any token
+  in "/root/.dbt/profiles.yml", line 6, column 2
+[0m07:11:17.855608 [error] [MainThread]: Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+  File "/usr/local/lib/python3.10/site-packages/dbt/task/init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "/usr/local/lib/python3.10/site-packages/dbt/task/init.py", line 248, in setup_profile
+    if not self.check_if_can_write_profile(profile_name=profile_name):
+  File "/usr/local/lib/python3.10/site-packages/dbt/task/init.py", line 209, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+  File "/usr/local/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/usr/local/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/usr/local/lib/python3.10/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/usr/local/lib/python3.10/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/usr/local/lib/python3.10/site-packages/yaml/parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "/usr/local/lib/python3.10/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/usr/local/lib/python3.10/site-packages/yaml/scanner.py", line 258, in fetch_more_tokens
+    raise ScannerError("while scanning for the next token", None,
+yaml.scanner.ScannerError: while scanning for the next token
+found character '\t' that cannot start any token
+  in "/root/.dbt/profiles.yml", line 6, column 2
+
+[0m07:11:17.857204 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.040722374, "process_in_blocks": "496", "process_kernel_time": 0.201532, "process_mem_max_rss": "92832", "process_out_blocks": "18", "process_user_time": 0.701888}
+[0m07:11:17.857540 [debug] [MainThread]: Command `dbt init` failed at 07:11:17.857472 after 0.04 seconds
+[0m07:11:17.857795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6750850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb5603880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb56037f0>]}
+[0m07:11:17.858101 [debug] [MainThread]: Flushing usage events
+[0m07:11:19.661189 [debug] [MainThread]: An error was encountered while trying to flush usage events
