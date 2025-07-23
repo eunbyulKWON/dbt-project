@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: sample_model
+      columns:
+        - name: country
+          tests:
+            - not_null
+            - accepted_values:
+                values: ['United Kingdom', 'France', 'Germany']
