@@ -24,19 +24,21 @@ models:
           
       - name: customer_id
         description: "고객 ID"
-        # tests:
-        #   - not_null
+        tests:
+          - not_null
 
       - name: country
         description: "구매 국가"
-        # tests:
-        #   - accepted_values:
+        tests:
+          - accepted_values:
         #       name: country_allowed_values_check
-        #       values: ['United Kingdom', 'France', 'Germany', 'Netherlands', 'Spain']
+              values: ['United Kingdom', 'France', 'Germany', 'Netherlands', 'Spain']
         #       store_failures: true
 
-    # tests:
-    #   - dbt_utils.unique_combination_of_columns:
-    #       combination_of_columns:
-    #         - invoice_no
-    #         - stock_code
+
+  # 복합키 유니크 테스트 정의 (dbt_utils패키지에 unique_combination_of_columns 함수 사용)
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - invoice_no
+            - stock_code
