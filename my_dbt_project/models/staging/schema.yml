@@ -1,0 +1,42 @@
+version: 2
+
+sources:
+  - name: raw
+    database: dbt-core-prj
+    schema: ecommerce
+    tables:
+      - name: raw_table
+        description: "원본 e-commerce 주문 데이터"
+
+models:
+  - name: stg_orders
+    description: "정제된 주문 데이터 (Staging Layer)"
+    columns:
+      - name: invoice_no
+        description: "주문 번호"
+        tests:
+          - not_null
+
+      - name: stock_code
+        description: "상품 코드"
+        tests:
+          - not_null
+          
+      - name: customer_id
+        description: "고객 ID"
+        # tests:
+        #   - not_null
+
+      - name: country
+        description: "구매 국가"
+        # tests:
+        #   - accepted_values:
+        #       name: country_allowed_values_check
+        #       values: ['United Kingdom', 'France', 'Germany', 'Netherlands', 'Spain']
+        #       store_failures: true
+
+    # tests:
+    #   - dbt_utils.unique_combination_of_columns:
+    #       combination_of_columns:
+    #         - invoice_no
+    #         - stock_code
