@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: mart_valid_orders
+    description: "테스트를 통과한 품질 보장 주문 데이터 (Mart Layer)"
+    columns:
+      - name: invoice_no
+        description: "주문 번호"
+      - name: stock_code
+        description: "상품 코드"
+      - name: customer_id
+        description: "고객 ID"
+      - name: country
+        description: "구매 국가"
